@@ -110,3 +110,29 @@ footer .mail,
 footer .phone {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* Portfolio */
+
+/* filter list */
+
+.filter-list .list {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+
+.filter-list .list:hover,
+.filter-list .list:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.filter-list .list.current {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* works list */
+
+.works-list .works {
+  color: var(--title-text-color);
+}
