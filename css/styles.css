@@ -179,6 +179,10 @@ footer .phone {
 .filter-list .option {
   background-color: #f5f4fa;
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 
 .filter-list .option:hover,
@@ -194,6 +198,19 @@ footer .phone {
 
 /* works list */
 
+.works-list a {
+  text-decoration: none;
+}
+
 .works-list .works {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works-list .text {
+  font-size: 16px;
+  line-height: 1.88;
 }
