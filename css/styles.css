@@ -176,18 +176,18 @@ footer .phone {
 
 /* filter list */
 
-.filter-list .list {
+.filter-list .option {
   background-color: #f5f4fa;
   color: var(--title-text-color);
 }
 
-.filter-list .list:hover,
-.filter-list .list:focus {
+.filter-list .option:hover,
+.filter-list .option:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
-.filter-list .list.current {
+.filter-list .option.current {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
