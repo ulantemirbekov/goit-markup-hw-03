@@ -183,6 +183,7 @@ footer .phone {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  border-style: none;
 }
 
 .filter-list .option:hover,
