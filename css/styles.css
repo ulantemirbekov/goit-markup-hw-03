@@ -191,11 +191,6 @@ footer .phone {
   color: var(--primary-white-color);
 }
 
-.filter-list .option.current {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-}
-
 /* works list */
 
 .works-list a {
