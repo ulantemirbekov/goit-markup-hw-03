@@ -7,6 +7,10 @@
 	box-sizing: border-box;
 }
 
+img {
+	display: block;
+}
+
 :root {
 	--primary-text-color: #757575;
 	--title-text-color: #212121;
@@ -88,8 +92,6 @@ body {
 	text-align: center;
 }
 .hero-title {
-	margin-top: 0;
-	margin-bottom: 0;
 	color: var(--primary-white-color);
 	font-weight: 900;
 	font-size: 44px;
@@ -97,6 +99,9 @@ body {
 
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
+
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 /* button */
@@ -115,25 +120,29 @@ button {
 	letter-spacing: 0.06em;
 	border-style: none;
 	margin-top: 40px;
+	/* margin-bottom: 0; */
 }
 
 /* section */
 
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
 .section-title {
-	margin-top: 0;
 	color: var(--title-text-color);
 
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
+
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 /* features */
-
-.feature-list {
-	padding-top: 94px;
-}
 
 .feature-list .title {
 	color: var(--title-text-color);
@@ -146,9 +155,12 @@ button {
 }
 
 .feature-list p {
-	margin-top: 0;
+	margin-top: 10px;
 	margin-bottom: 0;
-	padding-top: 10px;
+}
+
+.optimization {
+	padding-top: 0;
 }
 
 /* staff */
@@ -157,24 +169,37 @@ button {
 	background-color: #f5f4fa;
 }
 
+.staff-list {
+	margin-top: 50px;
+}
+
 .staff-list .name {
 	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
-	text-align: center;
+	/* text-align: center; */
+	margin-top: 30px;
+	margin-bottom: 0;
 }
 
 .staff-list .text {
 	font-size: 16px;
 	line-height: 1.19;
-	text-align: center;
+	/* text-align: center; */
+}
+
+.staff p {
+	margin-top: 10px;
+	margin-bottom: 0;
 }
 
 /* footer */
 
 footer {
 	background-color: #2f303a;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 footer span {
@@ -186,6 +211,8 @@ footer .address {
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
+	margin-top: 20px;
+	margin-bottom: 0;
 }
 
 footer .mail,
