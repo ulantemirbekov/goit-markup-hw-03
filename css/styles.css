@@ -41,6 +41,8 @@ body {
 
 .list {
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 /* site-nav */
@@ -83,13 +85,16 @@ body {
 
 .hero {
 	background-color: #2f303a;
+	text-align: center;
 }
 .hero-title {
+	margin-top: 0;
+	margin-bottom: 0;
 	color: var(--primary-white-color);
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	text-align: center;
+
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
@@ -109,11 +114,13 @@ button {
 	text-align: center;
 	letter-spacing: 0.06em;
 	border-style: none;
+	margin-top: 40px;
 }
 
 /* section */
 
 .section-title {
+	margin-top: 0;
 	color: var(--title-text-color);
 
 	font-weight: 700;
@@ -124,12 +131,24 @@ button {
 
 /* features */
 
+.feature-list {
+	padding-top: 94px;
+}
+
 .feature-list .title {
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.feature-list p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
 }
 
 /* staff */
@@ -216,4 +235,14 @@ footer .phone {
 	color: var(--primary-text-color);
 	font-size: 16px;
 	line-height: 1.88;
+}
+
+.container {
+	width: 1230px;
+	padding-right: 15px;
+	padding-left: 15px;
+	/* margin-left: auto;
+	margin-right: auto; */
+	margin: 0 auto;
+	outline: 2px solid tomato;
 }

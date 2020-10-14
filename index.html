@@ -14,16 +14,17 @@
   <body>
     <!-- Шапка страницы -->
     <header>
-      <nav>
-        <a href="./" aria-label="логотип компании" class="logo">Web<span class="logo-text">Studio</span> </a>
-        <!-- Навигация на другие страницы -->
-        <ul class="list site-nav">
-          <li><a href="./" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="./contacts" class="link">Контакты</a></li>
-        </ul>
-      </nav>
-
+      <div class="container">
+        <nav>
+          <a href="./" aria-label="логотип компании" class="logo">Web<span class="logo-text">Studio</span> </a>
+          <!-- Навигация на другие страницы -->
+          <ul class="list site-nav">
+            <li><a href="./" class="link current">Студия</a></li>
+            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li><a href="./contacts" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+      
       <ul class="list contacts-nav">
         <li>
           <a href="mailto:info@devstudio.com" class="link"
@@ -32,6 +33,7 @@
         </li>
         <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
+      </div>  
     </header>
 
     <!-- Уникальный контент страницы -->
@@ -44,8 +46,9 @@
 
       <!-- Особенности -->
       <section class="section">
-        <h2 hidden class="section-title">Особенности</h2>
-        <ul class="feature-list list">
+        <div class="container">
+          <!-- <h2  class="section-title">Особенности</h2> -->
+            <ul class="feature-list list">
           <li>
             <h3 class="title">Внимание к деталям</h3>
             <p>
@@ -74,7 +77,8 @@
               плановых заданий.
             </p>
           </li>
-        </ul>
+            </ul>
+        </div>
       </section>
 
       <!-- Чем мы занимаемся -->
