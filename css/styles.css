@@ -190,6 +190,7 @@ button {
 	border-style: none;
 
 	padding: 10px 32px;
+	min-width: 200px;
 }
 
 /* section */
