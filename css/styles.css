@@ -188,6 +188,8 @@ button {
 	text-align: center;
 	letter-spacing: 0.06em;
 	border-style: none;
+
+	padding: 10px 32px;
 }
 
 /* section */
