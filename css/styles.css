@@ -299,7 +299,16 @@ footer .phone {
 
 /* Portfolio */
 
-/* filter list */
+/* filter */
+
+.filter-list {
+	display: flex;
+	justify-content: center;
+}
+
+.filter-item:not(:last-child) {
+	margin-right: 8px;
+}
 
 .filter-list .option {
 	background-color: #f5f4fa;
