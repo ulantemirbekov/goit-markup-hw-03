@@ -151,12 +151,12 @@ header .navigation {
 	text-align: center;
 }
 
-.hero .container {
-	/* padding-left: 452px;
+/* .hero .container {
+	padding-left: 452px;
 	padding-right: 452px;
 	padding-top: 200px;
-	padding-bottom: 200px; */
-}
+	padding-bottom: 200px;
+} */
 
 .hero-title {
 	color: var(--primary-white-color);
@@ -251,6 +251,9 @@ button {
 	margin-right: 30px;
 }
 
+.staff-container {
+	padding-top: 30px;
+}
 .staff-list .name {
 	color: var(--title-text-color);
 	font-weight: 500;
@@ -279,13 +282,23 @@ footer span {
 	color: #ffffff;
 }
 
+footer .logo {
+	display: inline-block;
+	/* margin-right: 0; */
+	margin-bottom: 20px;
+}
+
 footer .address {
 	color: var(--primary-white-color);
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
-	margin-top: 20px;
-	margin-bottom: 0;
+
+	margin-bottom: 9px;
+}
+
+footer .mail {
+	margin-bottom: 9px;
 }
 
 footer .mail,
@@ -295,6 +308,7 @@ footer .phone {
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
+	display: block;
 }
 
 /* Portfolio */
