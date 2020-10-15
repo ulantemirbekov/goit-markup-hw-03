@@ -223,8 +223,18 @@ button {
 	margin-bottom: 10px;
 }
 
-.optimization {
+/* works */
+
+.works {
 	padding-top: 0;
+}
+
+.works ul {
+	display: flex;
+}
+
+.works .item:not(:last-child) {
+	margin-right: 30px;
 }
 
 /* staff */
