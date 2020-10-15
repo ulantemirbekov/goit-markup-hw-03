@@ -229,13 +229,20 @@ button {
 	padding-top: 0;
 }
 
-.works ul {
+.works-list {
 	display: flex;
+	flex-wrap: wrap;
+	margin: -15px;
 }
 
-.works .item:not(:last-child) {
-	margin-right: 30px;
+.works .item {
+	margin: 15px;
+	width: 370px;
 }
+
+/* .works .item:not(:last-child) {
+	margin-right: 30px;
+} */
 
 /* staff */
 
@@ -315,6 +322,11 @@ footer .phone {
 
 /* filter */
 
+.filter {
+	margin-top: 94px;
+	margin-bottom: 50px;
+}
+
 .filter-list {
 	display: flex;
 	justify-content: center;
@@ -340,24 +352,38 @@ footer .phone {
 	color: var(--primary-white-color);
 }
 
-/* works list */
+/* examples list */
 
-.works-list a {
+.examples-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 94px;
+	margin: -15px;
+}
+
+.examples-list .item {
+	margin: 15px;
+}
+
+.examples-container {
+	padding: 20px 24px;
+}
+
+.examples-list a {
 	text-decoration: none;
 }
 
-.works-list .works {
+.examples-list .name {
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 
-	margin-top: 20px;
 	margin-bottom: 0;
 }
 
-.works-list .text {
+.examples-list .text {
 	color: var(--primary-text-color);
 	font-size: 16px;
 	line-height: 1.88;
