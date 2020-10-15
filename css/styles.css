@@ -149,9 +149,15 @@ header .navigation {
 .hero {
 	background-color: #2f303a;
 	text-align: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
 }
+
+.hero .container {
+	/* padding-left: 452px;
+	padding-right: 452px;
+	padding-top: 200px;
+	padding-bottom: 200px; */
+}
+
 .hero-title {
 	color: var(--primary-white-color);
 	font-weight: 900;
@@ -162,6 +168,7 @@ header .navigation {
 	text-transform: uppercase;
 
 	margin-bottom: 30px;
+	margin-top: 0;
 }
 
 /* button */
@@ -202,6 +209,10 @@ button {
 
 /* features */
 
+.feature-list {
+	display: flex;
+}
+
 .feature-list .title {
 	color: var(--title-text-color);
 	font-weight: 700;
@@ -209,12 +220,7 @@ button {
 	line-height: 1.14;
 	text-transform: uppercase;
 	margin-top: 0;
-	margin-bottom: 0;
-}
-
-.feature-list p {
-	margin-top: 10px;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 .optimization {
