@@ -249,7 +249,7 @@ button {
 	margin-right: 30px;
 } */
 
-/* staff */
+/* Наша команда */
 
 .staff {
 	background-color: #f5f4fa;
@@ -265,13 +265,13 @@ button {
 
 .staff-container {
 	padding-top: 30px;
+	text-align: center;
 }
 .staff-list .name {
 	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
-	text-align: center;
 
 	margin-bottom: 10px;
 }
@@ -279,7 +279,6 @@ button {
 .staff-list .text {
 	font-size: 16px;
 	line-height: 1.19;
-	text-align: center;
 }
 
 /* footer */
