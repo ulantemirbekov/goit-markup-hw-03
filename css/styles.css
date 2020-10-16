@@ -327,6 +327,12 @@ footer .phone {
 
 /* Portfolio */
 
+/* Portfolio Header */
+
+.portfolio-header {
+	border-bottom: 1px solid #ececec;
+}
+
 /* filter */
 
 .filter {
