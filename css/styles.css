@@ -221,6 +221,10 @@ button {
 	width: 270px;
 }
 
+.features-item:not(:last-child) {
+	margin-right: 30px;
+}
+
 .features-list .title {
 	color: var(--title-text-color);
 	font-weight: 700;
