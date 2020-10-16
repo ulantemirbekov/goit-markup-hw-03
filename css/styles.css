@@ -335,14 +335,15 @@ footer .phone {
 
 /* Portfolio Filter */
 
-.filter {
-	margin-top: 94px;
-	margin-bottom: 50px;
+.portfolio .container {
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 .filter-list {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 50px;
 }
 
 .filter-item:not(:last-child) {
@@ -369,12 +370,11 @@ footer .phone {
 	color: var(--primary-white-color);
 }
 
-/* Examples */
+/* Portfolio Examples */
 
 .examples-list {
 	display: flex;
 	flex-wrap: wrap;
-	padding-bottom: 94px;
 	margin: -15px;
 }
 
