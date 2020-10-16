@@ -369,7 +369,7 @@ footer .phone {
 	color: var(--primary-white-color);
 }
 
-/* examples list */
+/* Examples */
 
 .examples-list {
 	display: flex;
@@ -384,6 +384,7 @@ footer .phone {
 
 .examples-container {
 	padding: 20px 24px;
+	border: 1px solid #eeeeee;
 }
 
 .examples-list a {
