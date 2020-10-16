@@ -171,7 +171,7 @@ header .navigation {
 	margin-top: 0;
 }
 
-/* button */
+/* Hero Button */
 
 button {
 	font-family: inherit;
@@ -189,6 +189,7 @@ button {
 
 	padding: 10px 32px;
 	min-width: 200px;
+	height: 50px;
 }
 
 /* section */
