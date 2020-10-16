@@ -211,13 +211,17 @@ button {
 	margin-bottom: 50px;
 }
 
-/* features */
+/* Features */
 
-.feature-list {
+.features-list {
 	display: flex;
 }
 
-.feature-list .title {
+.features-item {
+	width: 270px;
+}
+
+.features-list .title {
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 14px;
